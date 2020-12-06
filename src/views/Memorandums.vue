@@ -1,7 +1,7 @@
 <template>
   <div class="home container-fluid">
     <div class="row row-cols-1 row-cols-md-4">
-    <Card v-for="(memo, i) in data" v-bind:key="i" v-bind:indice="i" v-bind:numero="memo.id" v-bind:fecha="memo.fecha" v-bind:de="memo.de" v-bind:para="memo.para" v-bind:cuerpo="memo.cuerpo"></Card>
+    <Card v-for="(memo, i) in data" v-bind:key="i" v-bind:indice="i" v-bind:numero="memo.id" v-bind:fecha="memo.fecha" v-bind:de="memo.de" v-bind:para="memo.para" v-bind:cuerpo="memo.cuerpo" v-bind:puesto="memo.puesto"></Card>
     </div>
   </div>
 </template>
